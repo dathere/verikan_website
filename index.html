@@ -261,11 +261,11 @@
     display:flex;justify-content:space-between;align-items:center;gap:40px;color:#fff;
     position:relative;overflow:hidden;
   }
-  .cta-band::after{
+  .cta-band::after{pointer-events:none;z-index:0;
     content:"";position:absolute;inset:0;
     background:radial-gradient(50% 100% at 90% 0%, rgba(47,125,251,.35), transparent 70%);
   }
-  .cta-band > *{position:relative;}
+  .cta-band > *{position:relative;z-index:1;}
   .cta-band h2{color:#fff;margin:0 0 10px;}
   .cta-band p{color:rgba(255,255,255,.7);margin:0;font-size:15.5px;max-width:420px;}
   .cta-band .btn-ghost{border-color:rgba(255,255,255,.3);color:#fff;}
