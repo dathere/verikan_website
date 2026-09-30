@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — Verikan</title>
+<meta name="description" content="Frequently asked questions about Verikan, datHere's agentic data concierge for verifiable, cited answers from public and internal data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2030%2041%22%3E%3Cpath%20d%3D%22M15%2C37.8280747%20L28.670582%2C27.1660704%20C29.4954618%2C26.7099005%2030%2C25.8594143%2030%2C24.9470746%20L30%2C11.1846615%20C30%2C10.2723218%2029.4954618%2C9.42183559%2028.670582%2C8.96566572%20L16.3214095%2C2.0844592%20C15.4965296%2C1.62828933%2014.4874533%2C1.62828933%2013.670582%2C2.0844592%20L1.32941805%2C8.96566572%20C0.504538174%2C9.42183559%200%2C10.2723218%200%2C11.1846615%20L0%2C24.9470746%20C0%2C25.8594143%200.504538174%2C26.7099005%201.32941805%2C27.1660704%20L15%2C37.8280747%20Z%22%20fill%3D%22%230064FF%22/%3E%3Cpath%20d%3D%22M28.670582%2C7.93735059%20L16.3214095%2C1.05614406%20C15.4965296%2C0.599974194%2014.4874533%2C0.599974194%2013.670582%2C1.05614406%20L1.32941805%2C7.93735059%20C0.504538174%2C8.39352046%200%2C9.24400666%200%2C10.1563464%20L0%2C23.9187594%20C0%2C24.8310992%200.504538174%2C25.6815854%201.32941805%2C26.1377553%20L13.670582%2C33.0189618%20C14.4954618%2C33.4751317%2015.5045382%2C33.4751317%2016.3214095%2C33.0189618%20L28.6625734%2C26.1377553%20C29.4874533%2C25.6815854%2029.9919915%2C24.8310992%2029.9919915%2C23.9187594%20L29.9919915%2C10.1563464%20C29.9919915%2C9.24400666%2029.4874533%2C8.39352046%2028.6625734%2C7.93735059%20L28.670582%2C7.93735059%20Z%22%20fill%3D%22%23122852%22/%3E%3Cpath%20d%3D%22M26.8286172%2C24.9161478%20C27.5974373%2C24.6455386%2027.9738388%2C23.7873207%2027.9738388%2C22.998688%20L27.9738388%2C11.0841495%20C27.9738388%2C10.2955169%2027.5333689%2C9.56100606%2026.8286172%2C9.16668973%20L16.1452216%2C3.21328633%20C15.4324613%2C2.81897001%2014.5595302%2C2.81897001%2013.8467699%2C3.21328633%20L3.16337427%2C9.16668973%20C2.45061399%2C9.56100606%202.0181527%2C10.2955169%202.0181527%2C11.0841495%20L2.0181527%2C22.998688%20C2.0181527%2C23.7873207%202.37052856%2C24.7383189%203.16337427%2C24.9161478%20C4.1324079%2C25.1403669%2025.6673785%2C25.3181958%2026.8286172%2C24.9161478%20Z%22%20fill%3D%22%23FFFFFF%22/%3E%3Cpath%20d%3D%22M8.5%2C14.3%20L13.2%2C19.1%20L22%2C9.1%22%20fill%3D%22none%22%20stroke%3D%22%230064FF%22%20stroke-width%3D%223.2%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f7f9fc;
+    --bg-alt:#ffffff;
+    --ink:#151a24;
+    --ink-soft:#57616f;
+    --line:#e2e7ee;
+    --brand:#0f5fe0;
+    --brand-dark:#122852;
+    --accent:#2f7dfb;
+    --accent-soft:#e9f1ff;
+    --card:#ffffff;
+    --code-bg:#0b162e;
+    --code-ink:#dbe8ff;
+    --shadow: 0 1px 2px rgba(18,40,82,.05), 0 8px 24px rgba(18,40,82,.07);
+    --radius: 16px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0a0f1c;
+      --bg-alt:#101a2e;
+      --ink:#eef2fa;
+      --ink-soft:#9aa8c2;
+      --line:#20304f;
+      --brand:#5b9bff;
+      --brand-dark:#1f4fb8;
+      --accent:#5b9bff;
+      --accent-soft:#152541;
+      --card:#101a2e;
+      --code-bg:#060b16;
+      --code-ink:#cfe0ff;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0a0f1c;
+    --bg-alt:#101a2e;
+    --ink:#eef2fa;
+    --ink-soft:#9aa8c2;
+    --line:#20304f;
+    --brand:#5b9bff;
+    --brand-dark:#1f4fb8;
+    --accent:#5b9bff;
+    --accent-soft:#152541;
+    --card:#101a2e;
+    --code-bg:#060b16;
+    --code-ink:#cfe0ff;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+
+  /* NAV */
+  header.nav{
+    position:sticky; top:0; z-index:50;
+    background:color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1120px;margin:0 auto;}
+  .brand{display:flex;align-items:center;gap:10px;line-height:0;text-decoration:none;color:var(--ink);}
+  nav.links{display:flex;gap:28px;align-items:center;}
+  nav.links a{font-size:14.5px;font-weight:500;color:var(--ink-soft);text-decoration:none;}
+  nav.links a:hover{color:var(--ink);}
+  nav.links a.active{color:var(--ink);font-weight:600;}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    padding:11px 20px;border-radius:999px;font-weight:600;font-size:14.5px;
+    text-decoration:none;border:1px solid transparent;cursor:pointer;
+    transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
+    white-space:nowrap;
+  }
+  .btn-primary{background:var(--brand-dark);color:#fff;}
+  .btn-primary:hover{transform:translateY(-1px); box-shadow:0 10px 24px rgba(18,40,82,.25);}
+  .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line);}
+  .btn-ghost:hover{background:var(--accent-soft);border-color:var(--accent);}
+  .btn-sm{padding:8px 16px;font-size:13.5px;}
+  .nav-cta{display:flex;gap:10px;align-items:center;}
+
+  /* PAGE HEADER */
+  .page-hero{padding:72px 0 48px;}
+  .kicker{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brand);margin-bottom:14px;}
+  h1{font-size:clamp(32px,4.6vw,48px);letter-spacing:-0.02em;margin:0 0 16px;font-weight:800;max-width:720px;}
+  .page-hero p{font-size:17px;color:var(--ink-soft);max-width:640px;margin:0;}
+
+  /* FAQ LIST */
+  .faq-list{padding:0 0 96px;}
+  .faq-item{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    margin-bottom:14px;box-shadow:var(--shadow);overflow:hidden;
+  }
+  .faq-item summary{
+    list-style:none;cursor:pointer;padding:22px 26px;
+    display:flex;align-items:center;justify-content:space-between;gap:20px;
+    font-size:16px;font-weight:600;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary .chev{
+    flex:none;width:20px;height:20px;color:var(--brand);
+    transition:transform .18s ease;
+  }
+  :root[data-theme="dark"] .faq-item summary .chev{color:var(--accent);}
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .faq-item summary .chev{color:var(--accent);} }
+  .faq-item[open] summary .chev{transform:rotate(180deg);}
+  .faq-item .faq-answer{padding:0 26px 24px;color:var(--ink-soft);font-size:15px;max-width:820px;}
+  .faq-item .faq-answer p{margin:0;}
+
+  /* CTA BAND */
+  .cta-band{
+    background:var(--brand-dark);border-radius:28px;padding:56px;
+    display:flex;justify-content:space-between;align-items:center;gap:40px;color:#fff;
+    position:relative;overflow:hidden;margin-bottom:96px;
+  }
+  .cta-band::after{
+    content:"";position:absolute;inset:0;
+    background:radial-gradient(50% 100% at 90% 0%, rgba(47,125,251,.35), transparent 70%);
+  }
+  .cta-band > *{position:relative;}
+  .cta-band h2{color:#fff;margin:0 0 8px;font-size:24px;font-weight:800;}
+  .cta-band p{color:rgba(255,255,255,.7);margin:0;font-size:15px;max-width:380px;}
+  .cta-band .btn-ghost{border-color:rgba(255,255,255,.3);color:#fff;}
+  .cta-band .btn-ghost:hover{background:rgba(255,255,255,.1);}
+  .cta-band .btn-primary{background:#fff;color:var(--brand-dark);}
+  .cta-actions{display:flex;gap:12px;flex-wrap:wrap;flex:none;}
+
+  /* FOOTER */
+  footer{border-top:1px solid var(--line);padding:48px 0 32px;}
+  .footer-grid{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:32px;}
+  .footer-brand p{color:var(--ink-soft);font-size:14px;max-width:280px;margin:12px 0 0;}
+  .footer-links{display:flex;gap:56px;flex-wrap:wrap;}
+  .footer-col h4{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft);margin:0 0 14px;}
+  .footer-col a{display:block;font-size:14.5px;color:var(--ink);text-decoration:none;margin-bottom:10px;}
+  .footer-col a:hover{color:var(--brand);}
+  .footer-bottom{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;font-size:13px;color:var(--ink-soft);flex-wrap:wrap;gap:10px;}
+
+  @media (max-width:900px){
+    nav.links{display:none;}
+    .cta-band{flex-direction:column;text-align:center;padding:40px 28px;}
+    .cta-band p{max-width:none;}
+  }
+  @media (max-width:560px){
+    .page-hero{padding:48px 0 32px;}
+    .faq-list{padding:0 0 64px;}
+    .faq-item summary{padding:18px 20px;font-size:15px;}
+    .faq-item .faq-answer{padding:0 20px 20px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <picture><source srcset="media/verikan-logo-dark.png" media="(prefers-color-scheme: dark)"><img class="brand-logo" src="media/verikan-logo.png" alt="Verikan by datHere" height="34" width="173"></picture>
+    </a>
+    <nav class="links">
+      <a href="index.html#how-it-works">How it works</a>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#trust">Trust &amp; security</a>
+      <a href="index.html#use-cases">Use cases</a>
+      <a href="faq.html" class="active">FAQ</a>
+      <a href="https://data-concierge.dathere.com/docs">Docs</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost btn-sm" href="https://dathere.com/product-demo-request/" target="_blank" rel="noopener">Request a demo</a>
+      <a class="btn btn-primary btn-sm" href="https://data-concierge.dathere.com" target="_blank" rel="noopener">Try Verikan →</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="wrap page-hero">
+    <div class="kicker">FAQ</div>
+    <h1>Frequently asked questions</h1>
+    <p>Everything you've asked us about verified answers, FAIR data, and how Verikan actually works under the hood.</p>
+  </div>
+
+  <div class="wrap faq-list">
+
+    <details class="faq-item">
+      <summary>What is Verikan?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>Verikan is datHere's "Agentic Data Concierge" for verifiable knowledge. It operates in the cloud with an on-premises FAIRification option, keeping raw data on your network. Users ask questions and receive Verified Answers. When no previous Verified Answer exists, it employs agentic coding to draft a deterministic Python notebook in a designated GitHub repository for expert review. The name also references a mythical creature from Magistream lore.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is a Data Concierge? How is it different from a Chatbot?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>A chatbot generates the most "probable" answer using language models, even with RAG and tool calls, meaning answers are "synthesized" by the model and potentially subject to hallucinations. A traditional Data Concierge helps users find datasets and points to pre-prepared expert answers without generating its own, effectively eliminating hallucinations.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is an Agentic Data Concierge? How is it different from a traditional Data Concierge?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>An agentic variant creates draft answers using Python notebooks that teams can independently verify through GitHub workflows. It functions as a harness supporting question-to-verified-answer workflows using FAIRified data and inferred ontologies with experts-in-the-loop, substantially reducing hallucinations while leveraging modern agentic coding.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is FAIR Data?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>FAIR stands for "Findable, Accessible, Interoperable &amp; Reusable," defined in a 2016 Scientific Data publication. The principles emphasize "machine-actionability" enabling computational systems to find, access, interoperate, and reuse data with minimal human intervention.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is FAIRification?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>FAIRification is "the process of making your Data Findable, Accessible, Interoperable and Reusable." This typically involves compiling extensive metadata. Verikan uses a fast FAIRification engine powered by qsv, their data-wrangling toolkit, capable of processing large datasets rapidly while computing statistical measures and type inferences.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is "Opening Data" (as a verb)?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>"Opening data is the act of Contextualizing &amp; Humanizing Data by adding High Quality, High Resolution Metadata to make it Useful, Usable &amp; Used by Machines, Agents and Humans alike."</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is a Verified Answer?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>A Verified Answer represents a neuro-symbolically compiled response combining neural networks (LLMs) with deterministic Python scripts. Verikan uses FAIRified metadata and corpus-wide ontologies to generate high-quality draft answers leveraging world knowledge and high-value data sources.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is TypedStandards?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>TypedStandards is "an open standard for independent, third-party verification of AI-generated answers," providing cryptographically-signed confirmation that answers remain reproducible and verifiable from their inputs, establishing baseline provenance without attesting correctness.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Where are the Answers stored?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>The Answer Library — both draft and verified — resides in an associated GitHub repository that can exist within your organization, granting full administrative rights and ownership.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What Data Portals do you support?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>Verikan supports any portal using DCAT standards including CKAN, Socrata, and ESRI, with CKAN receiving additional features given datHere's background.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What Models do you support?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>The platform uses OpenRouter supporting 400+ models from 70+ providers including local LLMs. The FAIRification engine supports any OpenAI-compatible API and optimizes for local LLMs to preserve data privacy.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Does Verikan only work with Open Data?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>No, it functions with internal data too. Verikan "opens data" by FAIRifying it and storing enriched metadata in a FAIR Shadow Catalog, with data sourced from network-reachable locations like S3, SharePoint, network drives, or data lakes.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is a FAIR Shadow Catalog?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>Verikan stores enriched FAIRified metadata in the Shadow Catalog without retaining raw data post-compilation. Currently housed in a purpose-built database exclusive to Verikan, work progresses toward porting it to an internal CKAN instance.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Can I use all that FAIRified metadata in the FAIR Shadow Catalog outside Verikan?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>Yes, once ported to CKAN, users access metadata through familiar CKAN interfaces or APIs, including Datapusher+, neuro-symbolic data dictionaries, visualizations, and inferred ontologies.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Our team already uses Agentic Coding Harnesses. Can Verikan work with them?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>Yes, Verikan's architecture supports agentic coding integration, leveraging GitHub mechanisms (issues, pull requests, commit history, reviews) for Answer Library curation using workflows teams already understand.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Is Verikan Open Source?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>While components like qsv, its MCP Server, datHere Cowork Plugin, Datapusher+, and CKAN are open source, Verikan itself is not. It operates as a Knowledge as a Service (KaaS) solution, with optional specialized integrations for CKAN PaaS customers.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is Knowledge as a Service (KaaS)?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>According to Wikipedia, KaaS "is a computing service that delivers information to users, backed by a knowledge model." Verikan subscribers receive continuous improvements and access to curated high-value reference data including BLS and FBI Crime Data.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary>We have very high Security requirements. Can we run Verikan on-premise using only Local LLMs?
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="faq-answer"><p>Contact datHere. They offer containerized on-premises deployments coordinating with your DevOps team, supporting preferred models and local LLMs while keeping data, FAIRified metadata, and inferences internal.</p></div>
+    </details>
+
+  </div>
+
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <h2>Still have a question?</h2>
+        <p>Talk to the datHere team about deploying Verikan on your own data.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="https://dathere.com/product-demo-request/" target="_blank" rel="noopener">Request a demo</a>
+        <a class="btn btn-ghost" href="https://data-concierge.dathere.com" target="_blank" rel="noopener">Try Verikan →</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <picture><source srcset="media/verikan-logo-dark.png" media="(prefers-color-scheme: dark)"><img class="brand-logo" src="media/verikan-logo.png" alt="Verikan by datHere" height="28" width="142"></picture>
+        </a>
+        <p>Verifiable answers from raw data. Built by datHere.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="https://data-concierge.dathere.com" target="_blank" rel="noopener">Try Verikan</a>
+          <a href="https://data-concierge.dathere.com/docs" target="_blank" rel="noopener">Documentation</a>
+          <a href="https://dathere.com/verikan-data-concierge/" target="_blank" rel="noopener">About the product</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="https://dathere.com" target="_blank" rel="noopener">datHere</a>
+          <a href="https://dathere.com/product-demo-request/" target="_blank" rel="noopener">Request a Demo</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Verikan · a datHere product</span>
+      <span>Cited. Reproducible. Verifiable.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
